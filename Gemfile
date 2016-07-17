@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'carrierwave'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use postgresql as the database for Active Record
@@ -23,6 +23,8 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem 'carrierwave'
+gem 'cloudinary'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
